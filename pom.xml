@@ -9,11 +9,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!--保持jar版本一致，不然会报错-->
         <!--03 xls-->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.14</version>
+            <version>3.12</version>
         </dependency>
 
         <!--07 xlsx-->
